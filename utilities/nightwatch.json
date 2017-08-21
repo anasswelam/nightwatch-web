@@ -1,0 +1,65 @@
+{
+    "test_workers": true,
+    "live_output" : false,
+    "parallel_process_delay" : 10,
+    "src_folders" : ["./tests"],
+    "output_folder" : "./reports",
+    "page_objects_path" : "./resources/pageObjects/npm",
+    "selenium" : {
+        "start_process" : true,
+        "server_path" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/selenium-server-standalone-3.4.0.jar",
+        "log_path" : "",
+        "port" : 4444,
+        "screenshots" : {  
+            "enabled" : true,  
+            "on_failure" : true,  
+            "on_error" : false,  
+            "path" : "./reports"},
+        "cli_args" : {
+            "webdriver.chrome.driver" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/chromedriver.exe",
+            "webdriver.gecko.driver" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/geckodriver.exe",
+            "webdriver.edge.driver" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/MicrosoftWebDriver.exe",
+            "webdriver.ie.driver" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/IEDriverServer.exe",
+            "webdriver.opera.driver" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/operadriver.exe"
+        }
+ },
+    "test_settings" : {
+        "default" : {
+            "launch_url" : "https://www.npmjs.com",
+            "selenium_port" : 4444,
+            "selenium_host" : "localhost"
+        },
+        "chrome" : {
+            "desiredCapabilities": {
+                "platform": "Windows 10",
+                "browserName": "chrome"
+            }
+        },
+        "ie" : {
+            "desiredCapabilities": {
+                "platform": "Windows 10",
+                "browserName": "internet explorer",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true
+            }
+        },
+        "edge" : {
+            "desiredCapabilities": {
+                "platform": "WINDOWS",
+                "browserName": "MicrosoftEdge",
+                "version": "14.14393",
+                "trustAllSSLCertificates": true,
+                "ignoreProtectedModeSettings": true,
+                "javascriptEnabled": true
+            }
+        },
+        "ff" : {
+            "desiredCapabilities": {
+                "platform": "Windows 10",
+                "browserName": "firefox",
+                "javascriptEnabled" : true,
+                "acceptSslCerts" : true
+            }
+        }
+    }
+}

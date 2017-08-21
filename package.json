@@ -1,0 +1,22 @@
+{
+  "name": "nightwatch-web-reports",
+  "version": "1.0.0",
+  "description": "Create Page Object tests, run in all browsers and auto-generate htmls for each.",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "./node_modules/.bin/light-server -s . -p 500 -w ./reports/*.html",
+    "test": "./node_modules/.bin/nightwatch ./tests -r ./html-reporter.js -c ./utilities/nightwatch.json",
+    "test-login": "./node_modules/.bin/nightwatch ./tests/npm/test_login.js -r ./html-reporter.js -c ./utilities/nightwatch.json",
+    "test-search": "./node_modules/.bin/nightwatch ./tests/npm/test_search.js -r ./html-reporter.js -c ./utilities/nightwatch.json",
+    "test-all": "./node_modules/.bin/nightwatch ./tests -r ./html-reporter.js -c ./utilities/nightwatch.json -e chrome,ff,ie"
+  },
+  "author": "Alexander Lazaris",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.4.1",
+    "handlebars": "^4.0.10",
+    "light-server": "^2.2.1",
+    "nightwatch": "^0.9.16",
+    "nightwatch-html-reporter": "^2.0.2"
+  }
+}
