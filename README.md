@@ -30,9 +30,9 @@ Each time a test run completes, it will overwrite the current html of that brows
 
 ### Notes
 
-http://nightwatchjs.org/guide
-http://nightwatchjs.org/api#protocol
-http://nightwatchjs.org/api/#commands
+- http://nightwatchjs.org/guide
+- http://nightwatchjs.org/api#protocol
+- http://nightwatchjs.org/api/#commands
 
 - edge is having issues, cannot click web elements which in turns fails ALL edge related tests. Can enter text, verify elements, etc but no clicking
 - chrome, ie, firefox work fine. Currently Safari or Opera not supported, Edge is however as stated above, it has issues
