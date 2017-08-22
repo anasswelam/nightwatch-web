@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-server": "./node_modules/.bin/light-server -s . -p 500 -w ./reports/*.html",
-    "test": "./node_modules/.bin/nightwatch ./tests -r ./html-reporter.js -c ./utilities/nightwatch.json",
+    "test": "./node_modules/.bin/nightwatch ./tests -r ./html-reporter.js -c ./utilities/nightwatch.json -e chrome",
     "test-login": "./node_modules/.bin/nightwatch ./tests/npm/test_login.js -r ./html-reporter.js -c ./utilities/nightwatch.json",
     "test-search": "./node_modules/.bin/nightwatch ./tests/npm/test_search.js -r ./html-reporter.js -c ./utilities/nightwatch.json",
     "test-all": "./node_modules/.bin/nightwatch ./tests -r ./html-reporter.js -c ./utilities/nightwatch.json -e chrome,ff,ie"
