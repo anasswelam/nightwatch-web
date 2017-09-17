@@ -7,7 +7,7 @@
     "page_objects_path" : "./resources/pageObjects/npm",
     "selenium" : {
         "start_process" : true,
-        "server_path" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/selenium-server-standalone-3.4.0.jar",
+        "server_path" : "C:/Users/Alex Lazaris/Desktop/nightwatch-web/node_modules/.bin/selenium-server-standalone-3.4.0.jar",
         "log_path" : "",
         "port" : 4444,
         "screenshots" : {  
@@ -16,11 +16,11 @@
             "on_error" : false,  
             "path" : "./reports"},
         "cli_args" : {
-            "webdriver.chrome.driver" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/chromedriver.exe",
-            "webdriver.gecko.driver" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/geckodriver.exe",
-            "webdriver.edge.driver" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/MicrosoftWebDriver.exe",
-            "webdriver.ie.driver" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/IEDriverServer.exe",
-            "webdriver.opera.driver" : "C:/Users/Alex Lazaris/Desktop/Nightwatch/node_modules/.bin/operadriver.exe"
+            "webdriver.chrome.driver" : "C:/Users/Alex Lazaris/Desktop/nightwatch-web/node_modules/.bin/chromedriver.exe",
+            "webdriver.gecko.driver" : "C:/Users/Alex Lazaris/Desktop/nightwatch-web/node_modules/.bin/geckodriver.exe",
+            "webdriver.edge.driver" : "C:/Users/Alex Lazaris/Desktop/nightwatch-web/node_modules/.bin/MicrosoftWebDriver.exe",
+            "webdriver.ie.driver" : "C:/Users/Alex Lazaris/Desktop/nightwatch-web/node_modules/.bin/IEDriverServer.exe",
+            "webdriver.opera.driver" : "C:/Users/Alex Lazaris/Desktop/nightwatch-web/node_modules/.bin/operadriver.exe"
         }
  },
     "test_settings" : {
