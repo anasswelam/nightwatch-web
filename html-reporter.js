@@ -14,7 +14,6 @@ module.exports = {
   write : function(results, options, done) {
     var reportFilename = options.filename_prefix + '.html';//(Math.floor(Date.now() / 1000)) + < went before html
     var reportFilePath = path.join(__dirname, options.output_folder, reportFilename);
-    //fs.readFile('./reports/report.html', function(err,data) {
     fs.readFile('./reports/dummy.hbs', function(err, data) {
       if (err) throw err;
       var template = data.toString();
@@ -31,7 +30,4 @@ module.exports = {
       });
     });
   }
-  /*write : function(results, options, done) { //old reporting functionality
-    reporter.fn(results, done);
-  }*/
 };
