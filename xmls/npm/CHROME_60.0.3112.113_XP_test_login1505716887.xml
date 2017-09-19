@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<testsuites errors="0" 
+            failures="0" 
+            tests="2"> 
+ 
+  <testsuite name="npm.test_login" 
+    errors="0" failures="0" hostname="" id="" package="npm" skipped="0" 
+    tests="2" time="18.84" timestamp="Mon, 18 Sep 2017 06:41:07 GMT"> 
+   
+    <testcase name="Unsuccessful login" classname="npm.test_login" time="12.79" assertions="1"> 
+ 
+     
+    </testcase> 
+   
+    <testcase name="Sign up user" classname="npm.test_login" time="6.056" assertions="1"> 
+ 
+     
+    </testcase> 
+   
+ 
+   
+ 
+   
+  </testsuite> 
+</testsuites> 

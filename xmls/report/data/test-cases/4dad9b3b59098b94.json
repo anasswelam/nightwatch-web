@@ -1,0 +1,44 @@
+{
+  "uid" : "4dad9b3b59098b94",
+  "name" : "Load documentation page",
+  "historyId" : "npm.test_links#Load documentation page",
+  "time" : {
+    "duration" : 4519
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_links"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4dad9b3b59098b94.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,155 @@
+{
+  "npm.test_links#Load npm homepage" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1955483970e462c",
+      "status" : "passed",
+      "time" : {
+        "duration" : 8872
+      }
+    } ]
+  },
+  "npm.test_links#Load features page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e699e951e891cd91",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3195
+      }
+    } ]
+  },
+  "npm.test_links#Load pricing page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7e5b8344b01abc9",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2678
+      }
+    } ]
+  },
+  "npm.test_login#Unsuccessful login" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b05123cb739093a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 11900
+      }
+    } ]
+  },
+  "npm.test_search#Search for a package" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b81197adfde5fbf0",
+      "status" : "passed",
+      "time" : {
+        "duration" : 12290
+      }
+    } ]
+  },
+  "npm.test_links#Load enterprise page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d50f020e35e24f7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4849
+      }
+    } ]
+  },
+  "npm.test_login#Sign up user" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c771b5d8601ff696",
+      "status" : "passed",
+      "time" : {
+        "duration" : 5206
+      }
+    } ]
+  },
+  "npm.test_links#Load documentation page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4dad9b3b59098b94",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4519
+      }
+    } ]
+  },
+  "npm.test_links#Load support page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63b49ccf26b8f362",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3639
+      }
+    } ]
+  }
+}

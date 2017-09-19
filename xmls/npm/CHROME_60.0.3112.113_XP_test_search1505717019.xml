@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<testsuites errors="0" 
+            failures="0" 
+            tests="1"> 
+ 
+  <testsuite name="npm.test_search" 
+    errors="0" failures="0" hostname="" id="" package="npm" skipped="0" 
+    tests="1" time="10.98" timestamp="Mon, 18 Sep 2017 06:43:27 GMT"> 
+   
+    <testcase name="Search for a package" classname="npm.test_search" time="10.98" assertions="1"> 
+ 
+     
+    </testcase> 
+   
+ 
+   
+ 
+   
+  </testsuite> 
+</testsuites> 

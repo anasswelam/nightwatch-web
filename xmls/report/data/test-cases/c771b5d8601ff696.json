@@ -1,0 +1,44 @@
+{
+  "uid" : "c771b5d8601ff696",
+  "name" : "Sign up user",
+  "historyId" : "npm.test_login#Sign up user",
+  "time" : {
+    "duration" : 5206
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_login"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_login"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c771b5d8601ff696.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

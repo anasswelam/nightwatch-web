@@ -1,0 +1,107 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "npm.test_links",
+    "children" : [ {
+      "name" : "Load features page",
+      "uid" : "e699e951e891cd91",
+      "parentUid" : "ee7623b65a14c5a43fad3dc798028dd3",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3195
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Load enterprise page",
+      "uid" : "7d50f020e35e24f7",
+      "parentUid" : "ee7623b65a14c5a43fad3dc798028dd3",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4849
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Load npm homepage",
+      "uid" : "1955483970e462c",
+      "parentUid" : "ee7623b65a14c5a43fad3dc798028dd3",
+      "status" : "passed",
+      "time" : {
+        "duration" : 8872
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Load support page",
+      "uid" : "63b49ccf26b8f362",
+      "parentUid" : "ee7623b65a14c5a43fad3dc798028dd3",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3639
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Load pricing page",
+      "uid" : "e7e5b8344b01abc9",
+      "parentUid" : "ee7623b65a14c5a43fad3dc798028dd3",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2678
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Load documentation page",
+      "uid" : "4dad9b3b59098b94",
+      "parentUid" : "ee7623b65a14c5a43fad3dc798028dd3",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4519
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ee7623b65a14c5a43fad3dc798028dd3"
+  }, {
+    "name" : "npm.test_login",
+    "children" : [ {
+      "name" : "Sign up user",
+      "uid" : "c771b5d8601ff696",
+      "parentUid" : "3f2421efada888286b6e63e45147b637",
+      "status" : "passed",
+      "time" : {
+        "duration" : 5206
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Unsuccessful login",
+      "uid" : "8b05123cb739093a",
+      "parentUid" : "3f2421efada888286b6e63e45147b637",
+      "status" : "passed",
+      "time" : {
+        "duration" : 11900
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3f2421efada888286b6e63e45147b637"
+  }, {
+    "name" : "npm.test_search",
+    "children" : [ {
+      "name" : "Search for a package",
+      "uid" : "b81197adfde5fbf0",
+      "parentUid" : "2fe88126be95be8d3dc471f57d1181c7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 12290
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2fe88126be95be8d3dc471f57d1181c7"
+  } ]
+}

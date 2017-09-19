@@ -8,11 +8,14 @@
     "test": "./node_modules/.bin/nightwatch ./tests -r ./html-reporter.js -c ./utilities/nightwatch.json -e chrome",
     "test-login": "./node_modules/.bin/nightwatch ./tests/npm/test_login.js -r ./html-reporter.js -c ./utilities/nightwatch.json",
     "test-search": "./node_modules/.bin/nightwatch ./tests/npm/test_search.js -r ./html-reporter.js -c ./utilities/nightwatch.json",
-    "test-all": "./node_modules/.bin/nightwatch ./tests -r ./html-reporter.js -c ./utilities/nightwatch.json -e chrome,ff,ie"
+    "test-all": "./node_modules/.bin/nightwatch ./tests -r ./html-reporter.js -c ./utilities/nightwatch.json -e chrome,ff,ie",
+    "test-junit-single": "./node_modules/.bin/nightwatch ./tests -r ./node_modules/nightwatch/lib/runner/reporters/junit.js -c ./utilities/nightwatch.json -e chrome -o ./xmls",
+    "test-junit-all": "./node_modules/.bin/nightwatch ./tests -r ./node_modules/nightwatch/lib/runner/reporters/junit.js -c ./utilities/nightwatch.json -e chrome,ff,ie -o ./xmls"
   },
   "author": "Alexander Lazaris",
   "license": "ISC",
   "dependencies": {
+    "allure-commandline": "^2.3.5",
     "eslint": "^4.4.1",
     "handlebars": "^4.0.10",
     "light-server": "^2.2.1",
