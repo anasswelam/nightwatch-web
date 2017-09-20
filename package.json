@@ -10,7 +10,8 @@
     "test-search": "./node_modules/.bin/nightwatch ./tests/npm/test_search.js -r ./html-reporter.js -c ./utilities/nightwatch.json",
     "test-all": "./node_modules/.bin/nightwatch ./tests -r ./html-reporter.js -c ./utilities/nightwatch.json -e chrome,ff,ie",
     "test-junit-single": "./node_modules/.bin/nightwatch ./tests -r ./node_modules/nightwatch/lib/runner/reporters/junit.js -c ./utilities/nightwatch.json -e chrome -o ./xmls",
-    "test-junit-all": "./node_modules/.bin/nightwatch ./tests -r ./node_modules/nightwatch/lib/runner/reporters/junit.js -c ./utilities/nightwatch.json -e chrome,ff,ie -o ./xmls"
+    "test-junit-all": "./node_modules/.bin/nightwatch ./tests -r ./node_modules/nightwatch/lib/runner/reporters/junit.js -c ./utilities/nightwatch.json -e chrome,ff,ie -o ./xmls",
+    "allure-generate-report": "node_modules/.bin/allure generate xmls/npm/. -o ./xmls/report --clean"
   },
   "author": "Alexander Lazaris",
   "license": "ISC",
