@@ -28,6 +28,13 @@ Each time a test run completes, it will overwrite the current html of that brows
 
 ![Test report/log](./newReport.jpg)
 
+Also, Allure Reports has been integrated, producing test-data filled htmls based off latest test runs. Follow these steps:
+
+1. Ensure your tests produce junit-styled xmls by changing the reporter. The final command will look something like ```./node_modules/.bin/nightwatch ./tests -r ./node_modules/nightwatch/lib/runner/reporters/junit.js -c ./utilities/nightwatch.json -e chrome -o ./xmls```
+2. To generate allure report, use ```./node_modules/.bin/allure generate xmls/npm/. -o ./xmls/report```
+
+![Allure report](./allureReport.png)
+
 ### Notes
 
 - http://nightwatchjs.org/guide
