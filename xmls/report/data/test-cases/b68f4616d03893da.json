@@ -1,0 +1,56 @@
+{
+  "uid" : "b68f4616d03893da",
+  "name" : "Load support page",
+  "historyId" : "npm.test_links#Load support page",
+  "time" : {
+    "duration" : 7669
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_links"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "77e4b54369a6e3e6",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3741
+      }
+    }, {
+      "uid" : "f6a7113ba14543db",
+      "status" : "passed",
+      "time" : {
+        "duration" : 5117
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b68f4616d03893da.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

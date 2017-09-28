@@ -1,0 +1,73 @@
+[ {
+  "uid" : "be09fddac8cb28bc",
+  "name" : "Load features page",
+  "time" : {
+    "duration" : 4124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ba8b051e260347b",
+  "name" : "Load pricing page",
+  "time" : {
+    "duration" : 4768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dbcf414e4191791",
+  "name" : "Load enterprise page",
+  "time" : {
+    "duration" : 4159
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d92ded90a221a19",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "duration" : 13150
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d4835ba34fd230a",
+  "name" : "Sign up user",
+  "time" : {
+    "duration" : 7525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "593c246699034a73",
+  "name" : "Load npm homepage",
+  "time" : {
+    "duration" : 16150
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f388e19bd32c58bb",
+  "name" : "Load documentation page",
+  "time" : {
+    "duration" : 5047
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b68f4616d03893da",
+  "name" : "Load support page",
+  "time" : {
+    "duration" : 7669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dc66b4f0808be6b",
+  "name" : "Search for a package",
+  "time" : {
+    "duration" : 10790
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,88 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "time" : {
+      "minDuration" : 4124,
+      "maxDuration" : 16150,
+      "sumDuration" : 73382
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 3,
+    "items" : [ {
+      "uid" : "ee7623b65a14c5a43fad3dc798028dd3",
+      "name" : "npm.test_links",
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 6
+      }
+    }, {
+      "uid" : "3f2421efada888286b6e63e45147b637",
+      "name" : "npm.test_login",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "2fe88126be95be8d3dc471f57d1181c7",
+      "name" : "npm.test_search",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 9
+    }
+  } ],
+  "behaviors" : {
+    "total" : 9,
+    "items" : [ ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
+      "name" : "Product defects",
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      }
+    } ]
+  },
+  "launches" : [ ]
+}

@@ -1,0 +1,41 @@
+{
+  "uid" : "973d423832bffa73",
+  "name" : "Load features page",
+  "historyId" : "npm.test_links#Load features page",
+  "time" : {
+    "duration" : 5185
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_links"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "973d423832bffa73.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

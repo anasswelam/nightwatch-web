@@ -1,0 +1,41 @@
+{
+  "uid" : "83ecd4370ed5125d",
+  "name" : "Load pricing page",
+  "historyId" : "npm.test_links#Load pricing page",
+  "time" : {
+    "duration" : 4882
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_links"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "83ecd4370ed5125d.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "b76dfd303419a53a",
+  "name" : "Load npm homepage",
+  "historyId" : "npm.test_links#Load npm homepage",
+  "time" : {
+    "duration" : 13310
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Testing if the page title equals \"google\".",
+    "trace" : "    at Object.module.exports.Load npm homepage (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\tests\\npm\\test_links.js:8:24)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_links"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "b76dfd303419a53a.json",
+  "statusDetailsSafe" : {
+    "message" : "Testing if the page title equals \"google\".",
+    "trace" : "    at Object.module.exports.Load npm homepage (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\tests\\npm\\test_links.js:8:24)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

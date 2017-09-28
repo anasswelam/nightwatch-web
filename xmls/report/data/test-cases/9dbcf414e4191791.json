@@ -1,0 +1,64 @@
+{
+  "uid" : "9dbcf414e4191791",
+  "name" : "Load enterprise page",
+  "historyId" : "npm.test_links#Load enterprise page",
+  "time" : {
+    "duration" : 4159
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Testing if the page title equals \"npm Enterprise\".",
+    "trace" : "    at Object.module.exports.Load enterprise page (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\tests\\npm\\test_links.js:14:24)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_links"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "59d04bf9d9c0dbc",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4048
+      }
+    }, {
+      "uid" : "d5e3f491e7c2b327",
+      "status" : "passed",
+      "time" : {
+        "duration" : 6214
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9dbcf414e4191791.json",
+  "statusDetailsSafe" : {
+    "message" : "Testing if the page title equals \"npm Enterprise\".",
+    "trace" : "    at Object.module.exports.Load enterprise page (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\tests\\npm\\test_links.js:14:24)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

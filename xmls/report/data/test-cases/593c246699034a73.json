@@ -1,0 +1,66 @@
+{
+  "uid" : "593c246699034a73",
+  "name" : "Load npm homepage",
+  "historyId" : "npm.test_links#Load npm homepage",
+  "time" : {
+    "duration" : 16150
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Testing if the page title equals \"google\".",
+    "trace" : "    at Object.module.exports.Load npm homepage (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\tests\\npm\\test_links.js:8:24)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)",
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_links"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_links"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b76dfd303419a53a",
+      "status" : "failed",
+      "statusDetails" : "Testing if the page title equals \"google\".",
+      "time" : {
+        "duration" : 13310
+      }
+    }, {
+      "uid" : "42fd61aacd342b54",
+      "status" : "failed",
+      "statusDetails" : "Testing if the page title equals \"google\".",
+      "time" : {
+        "duration" : 16910
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "593c246699034a73.json",
+  "statusDetailsSafe" : {
+    "message" : "Testing if the page title equals \"google\".",
+    "trace" : "    at Object.module.exports.Load npm homepage (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\tests\\npm\\test_links.js:8:24)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)",
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

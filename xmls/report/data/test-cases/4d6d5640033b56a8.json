@@ -1,0 +1,41 @@
+{
+  "uid" : "4d6d5640033b56a8",
+  "name" : "Unsuccessful login",
+  "historyId" : "npm.test_login#Unsuccessful login",
+  "time" : {
+    "duration" : 12270
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_login"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_login"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "4d6d5640033b56a8.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

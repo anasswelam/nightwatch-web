@@ -1,0 +1,64 @@
+{
+  "uid" : "6dc66b4f0808be6b",
+  "name" : "Search for a package",
+  "historyId" : "npm.test_search#Search for a package",
+  "time" : {
+    "duration" : 10790
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Testing if element <li.package-details> is present.",
+    "trace" : "    at Object.module.exports.commands.checkAtLeast1Result (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\resources\\pageObjects\\npm\\searchResults.js:11:32)\n    at Object.module.exports.Search for a package (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\tests\\npm\\test_search.js:11:17)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_search"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_search"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_search"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "458663553cad35f1",
+      "status" : "passed",
+      "time" : {
+        "duration" : 9207
+      }
+    }, {
+      "uid" : "bba7b734a3da49d3",
+      "status" : "passed",
+      "time" : {
+        "duration" : 13710
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6dc66b4f0808be6b.json",
+  "statusDetailsSafe" : {
+    "message" : "Testing if element <li.package-details> is present.",
+    "trace" : "    at Object.module.exports.commands.checkAtLeast1Result (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\resources\\pageObjects\\npm\\searchResults.js:11:32)\n    at Object.module.exports.Search for a package (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\tests\\npm\\test_search.js:11:17)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

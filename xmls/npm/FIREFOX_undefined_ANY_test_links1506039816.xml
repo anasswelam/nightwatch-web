@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<testsuites errors="0" 
+            failures="1" 
+            tests="6"> 
+ 
+  <testsuite name="npm.test_links" 
+    errors="0" failures="1" hostname="" id="" package="npm" skipped="0" 
+    tests="6" time="35.72" timestamp="Fri, 22 Sep 2017 00:22:23 GMT"> 
+   
+    <testcase name="Load npm homepage" classname="npm.test_links" time="13.31" assertions="1">  <failure message="Testing if the page title equals &quot;google&quot;.">    at Object.module.exports.Load npm homepage (C:\Users\Alex Lazaris\Desktop\nightwatch-web\tests\npm\test_links.js:8:24)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure> 
+ 
+     
+    </testcase> 
+   
+    <testcase name="Load enterprise page" classname="npm.test_links" time="6.214" assertions="1"> 
+ 
+     
+    </testcase> 
+   
+    <testcase name="Load features page" classname="npm.test_links" time="4.124" assertions="1"> 
+ 
+     
+    </testcase> 
+   
+    <testcase name="Load pricing page" classname="npm.test_links" time="3.729" assertions="1"> 
+ 
+     
+    </testcase> 
+   
+    <testcase name="Load documentation page" classname="npm.test_links" time="4.606" assertions="1"> 
+ 
+     
+    </testcase> 
+   
+    <testcase name="Load support page" classname="npm.test_links" time="3.741" assertions="1"> 
+ 
+     
+    </testcase> 
+   
+ 
+   
+ 
+   
+  </testsuite> 
+</testsuites> 

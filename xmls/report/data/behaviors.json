@@ -1,0 +1,95 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Load features page",
+    "uid" : "be09fddac8cb28bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "duration" : 4124
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Load pricing page",
+    "uid" : "5ba8b051e260347b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "duration" : 4768
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Load enterprise page",
+    "uid" : "9dbcf414e4191791",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "duration" : 4159
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Unsuccessful login",
+    "uid" : "2d92ded90a221a19",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "duration" : 13150
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Sign up user",
+    "uid" : "1d4835ba34fd230a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "duration" : 7525
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Load npm homepage",
+    "uid" : "593c246699034a73",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "duration" : 16150
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Load documentation page",
+    "uid" : "f388e19bd32c58bb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "duration" : 5047
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Load support page",
+    "uid" : "b68f4616d03893da",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "duration" : 7669
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Search for a package",
+    "uid" : "6dc66b4f0808be6b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "duration" : 10790
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

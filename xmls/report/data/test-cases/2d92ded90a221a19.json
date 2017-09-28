@@ -1,0 +1,64 @@
+{
+  "uid" : "2d92ded90a221a19",
+  "name" : "Unsuccessful login",
+  "historyId" : "npm.test_login#Unsuccessful login",
+  "time" : {
+    "duration" : 13150
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Testing if element <div.alert-error> is present.",
+    "trace" : "    at Object.module.exports.commands.checkErrorPresent (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\resources\\pageObjects\\npm\\loginAndSignUp.js:48:32)\n    at Object.module.exports.Unsuccessful login (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\tests\\npm\\test_login.js:13:14)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "npm.test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "npm.test_login"
+  }, {
+    "name" : "package",
+    "value" : "npm.test_login"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4d6d5640033b56a8",
+      "status" : "passed",
+      "time" : {
+        "duration" : 12270
+      }
+    }, {
+      "uid" : "333d6a3bb640b01d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 13110
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2d92ded90a221a19.json",
+  "statusDetailsSafe" : {
+    "message" : "Testing if element <div.alert-error> is present.",
+    "trace" : "    at Object.module.exports.commands.checkErrorPresent (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\resources\\pageObjects\\npm\\loginAndSignUp.js:48:32)\n    at Object.module.exports.Unsuccessful login (C:\\Users\\Alex Lazaris\\Desktop\\nightwatch-web\\tests\\npm\\test_login.js:13:14)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}
