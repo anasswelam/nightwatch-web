@@ -5,7 +5,7 @@ module.exports = {
     'Load npm homepage' : function (browser) {
         var home = browser.page.homepage()
         browser.init()//this auto grabs launch_url value from nightwatch.json
-        browser.verify.title("google");
+        browser.verify.title("npm");
     },//something failing here ... need to continue test even if failed
     'Load enterprise page' : function (browser) {
         var home = browser.page.homepage()
