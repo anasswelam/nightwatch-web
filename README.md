@@ -41,12 +41,13 @@ Also, Allure Reports has been integrated, producing test-data filled htmls based
 - http://nightwatchjs.org/api#protocol
 - http://nightwatchjs.org/api/#commands
 
-- edge is having issues, cannot click web elements which in turns fails ALL edge related tests. Can enter text, verify elements, etc but no clicking
-- chrome, ie, firefox work fine. Currently Safari or Opera not supported, Edge is however as stated above, it has issues
+- Within nightwatch.json, set ```"test_workers": false``` to disable parallel execution
+- Edge is having issues, cannot click web elements which in turns fails ALL edge related tests. Can enter text, verify elements, etc but no clicking
+- Currently Safari or Opera not supported, Edge is however as stated above, it has issues
 - Within report, only nightwatch assert + commands are printed. All asserts have an optional string parameter to replace the printed assert result
 - Nightwatch team comms: Delays with responding to PRs, changes, requests
 - Nightwatch’s async operations rely on callback functions
 - Best use cases are many test files with 1 or 2 tests in each
 - Can run ```groups``` (folders) containing tests. If organised successfully, can be of great use (run smoke, login, breaking tests for example) :smirk:
-- Can append timestamp to end of report files to allow report history.
+- Can append timestamp to end of report files to allow report history
 - Not sure why Chrome report appends "XP" to filename
